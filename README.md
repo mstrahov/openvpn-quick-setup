@@ -1,16 +1,16 @@
 openvpn-quick-setup
 ===================
 
-Script for quick openvpn tunnel setup on ubuntu server/client
+Script for a quick openvpn tunnel setup on ubuntu server/client
 
 Openvpn has to be installed on the client, e.g.  sudo apt-get install -y openvpn
 
-on the client machine copy both scripts to ~/openvpn
+On the client machine copy both scripts to ~/openvpn
 sudo ptoremote.sh <IP_OF_A_REMOTE_SERVER>
 
-setremote.sh will be copied to a remote server, which will be set up as an openvpn server.  key pairs are generated on the server and copied back to the client, open vpn tun is started automatically on the client machine
+setremote.sh will be copied to a remote server, which will be set up as an openvpn server.  Key pairs are generated on the server and copied back to the client, open vpn tun is started automatically on the client machine
 
-tested on Ubuntu 12.04
+Tested on Ubuntu 12.04
 
 
 Refs:
