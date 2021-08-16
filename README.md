@@ -5,7 +5,7 @@ Script for a quick openvpn tunnel setup on ubuntu server/client
 
 Openvpn has to be installed on the client, e.g.  sudo apt-get install -y openvpn
 
-On the client machine 
+On the client machine: 
 
 1) copy both scripts to ~/openvpn
 
